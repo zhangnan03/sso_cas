@@ -1,0 +1,56 @@
+/* jquery.page.js css  */
+ul.pages {
+	display: inline;
+	border: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height:40px;
+}
+
+ul.pages li {
+	float: left;
+	border: 1px solid #ffffff;
+	margin: 5px 5px 0 0;
+}
+
+ul.pages li:hover {
+	border: 1px solid #afdfe4;
+}
+
+ul.pages li.pgEmpty {
+	filter: alpha(opacity = 20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+}
+
+ul.pages li.thpoint {
+	border: none;
+	cursor: auto;
+	font-weight: bold;
+	margin:auto;
+	height: 26px;
+}
+
+#firstPage {
+	width: 54px;
+	height: 26px;
+	background: url("../images/btn-sy.gif") no-repeat center;
+}
+
+#previosPage {
+	width: 64px;
+	height: 26px;
+	background: url("../images/btn-syy.gif") no-repeat center;
+}
+
+#nextPage {
+	width: 64px;
+	height: 26px;
+	background: url("../images/btn-xyy.gif") no-repeat center;
+}
+
+#lastPage {
+	width: 54px;
+	height: 26px;
+	background: url("../images/btn-wy.gif") no-repeat center;
+}
